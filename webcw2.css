@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    font-family: "Poppins";
+}
+
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns:1fr 4fr;
+    grid-template-rows:1/8fr 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 20px;
+}
+
+header {
+    grid-column: span 3;
+    grid-row: 1;
+    text-align: center;
+    border-bottom: 1px solid;
+    background-color: grey;
+    
+}
+
+nav{
+ 
+  background-color: rgb(132, 141, 141);
+  text-align: center;
+  width: auto;
+  grid-row: 2;
+  border-radius: 4px;
+  
+}
+
+
+
+
+
+a:visited {
+    color: rgb(29, 14, 29);
+}
+
+a{
+    text-decoration: none;
+}
+
+footer{
+    grid-row: 4;
+    text-align: center;
+    background-color: rgb(132, 141, 141);
+    grid-column: span 2;
+    bottom: auto;
+    padding: 10px;
+    
+    
+    
+}
+
+.output1{
+    grid-row: 2;
+    grid-column: 2;
+    margin-top: 10px; /* Adjust as needed */
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 400px;
+      
+}
+
+
+
+.container2{
+    grid-column:2;
+    
+}
+
+
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    grid-column: span 2;
+    grid-row: 3;
+
+}   
+
+
+form{
+    border-radius: 8px;
+    border-style: double;
+    border-color: black;
+
+}
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+button {
+    background-color: #c0bebe;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    margin-top: 20px;
+  }
+
+button:hover{
+    background-color: #000000f6;
+}
+
+.flexbox ul {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    flex-direction: row;
+  }
+
+  ul li {
+        list-style-type: none; 
+    
+  }
